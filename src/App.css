@@ -1,3 +1,7 @@
+*{
+  background-color: #f0f0f0;
+}
+
 .App {
   text-align: center;
 }
@@ -31,3 +35,36 @@
     transform: rotate(360deg);
   }
 }
+
+.celebritiesDisplay{
+  overflow-y: scroll;
+  height: 80vh;
+  width: 50vh;
+ }
+ 
+ .celebritiesDisplay img{
+  height: 60px;
+  width: 60px;
+ }
+
+.Bold span{
+  color:blue;
+  font-size:30px;
+}
+
+.Bold:hover span{
+  font-weight:bold;
+}
+
+.Bold:hover{
+  text-decoration:underline;
+  font-weight:bold;
+}
+
+.title{
+  background-color: #222;
+  color: white;
+  margin: 0;
+  padding: 10px 0 10px 0;
+}
+
